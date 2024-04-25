@@ -1,0 +1,306 @@
+.dropdownscreen {
+  width: 430px;
+  height: 871px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+  display: none;
+  max-width: 100%;
+}
+.qrCodeIcon {
+  height: 38px;
+  width: 30px;
+  position: relative;
+  object-fit: contain;
+}
+.topmenu {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-xs) 118px;
+}
+.toggleOffIcon {
+  height: 45px;
+  width: 37px;
+  position: relative;
+  object-fit: cover;
+}
+.darkTheme {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.darkthemetoggle {
+  width: 173px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.connectPremiumAccount {
+  height: 25px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+}
+.forwardIcon {
+  height: 28px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 28px;
+}
+.connectpremiumaccbutton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-lg);
+}
+.security {
+  height: 25px;
+  width: 84px;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.forwardIcon1 {
+  height: 28px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 28px;
+}
+.securitybutton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+}
+.notifications {
+  height: 25px;
+  width: 116px;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.forwardIcon2 {
+  height: 28px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 28px;
+}
+.notificationsbutton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.billing {
+  height: 25.1px;
+  width: 61px;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.forwardIcon3 {
+  height: 28px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 28px;
+}
+.billingbutton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.languageReligion {
+  height: 25px;
+  width: 188px;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.forwardIcon4 {
+  height: 28px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 28px;
+}
+.languagereligionbutton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-xl);
+}
+.accessibility {
+  height: 25px;
+  width: 111px;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.forwardIcon5 {
+  height: 28px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 28px;
+}
+.accessibilitybutton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-xl);
+}
+.connectedSocialAccounts {
+  height: 25px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+}
+.forwardIcon6 {
+  height: 28px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 28px;
+}
+.connectedsocialaccs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 29px;
+}
+.helpSupport {
+  height: 25px;
+  width: 188px;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.forwardIcon7 {
+  height: 28px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 28px;
+}
+.helpsupportbutton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-xl);
+}
+.appsettingsdisplay,
+.bottommenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bottommenu {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-400);
+  align-items: center;
+  padding: var(--padding-5xl) var(--padding-9xl);
+  gap: 35px;
+}
+.appsettingsdisplay {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.appsettingsdisplayWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl) 0 var(--padding-lg);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.appsettingsdisplayWrapper,
+.dropdownscreenParent,
+.protoAppSettingsPage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.dropdownscreenParent {
+  flex: 1;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-mid) var(--padding-34xl);
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.protoAppSettingsPage {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 62px 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 354px) {
+  .bottommenu {
+    gap: var(--gap-mid);
+  }
+}

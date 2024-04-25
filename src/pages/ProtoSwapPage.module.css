@@ -1,0 +1,618 @@
+.walletdisplay {
+  height: 26px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 13px);
+  right: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-palevioletred-400);
+}
+.swapWallet {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 1;
+}
+.walletdropdownbox,
+.walletproviderbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.walletdropdownbox {
+  flex: 1;
+  padding: var(--padding-4xs) var(--padding-13xl) var(--padding-5xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.walletproviderbox {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.walleticon {
+  width: 22px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.walleticonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.dropdownicon {
+  align-self: stretch;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 20px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.connectedwallet {
+  width: 162.3px;
+  margin: 0 !important;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.configurewallets,
+.configurewalletsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.configurewallets {
+  align-self: stretch;
+  height: 27px;
+  position: relative;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.configurewalletsWrapper {
+  width: 190px;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.settingsicon {
+  width: 22px;
+  height: 15.9px;
+  position: relative;
+  object-fit: cover;
+}
+.frameGroup,
+.settingsmenu {
+  display: flex;
+  align-items: flex-start;
+}
+.settingsmenu {
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-8xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.frameGroup {
+  width: 349px;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameParent,
+.protoSwapPageInner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xl-1);
+}
+.protoSwapPageInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-mini) 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.backgroundfilterIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.messageTailIcon,
+.messageTailIcon1 {
+  position: absolute;
+  top: 299.5px;
+  left: 379px;
+  width: 21px;
+  height: 8.5px;
+  z-index: 1;
+}
+.messageTailIcon1 {
+  top: 412px;
+  left: 384px;
+  width: 24.3px;
+}
+.backgroundfilterParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.contracttokenaddress {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.messageFrame {
+  border-radius: var(--br-3xs) var(--br-8xs) var(--br-8xs) var(--br-3xs);
+  background: linear-gradient(180deg, #fff, #fcc9db 0.01%, #f879a6 19.27%);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-2xs);
+}
+.messageFrame,
+.messageframe,
+.messageframeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.messageframe {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.messageframeWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) var(--padding-mid);
+}
+.buySolButton {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #dee0e5, #f879a6);
+}
+.ethereumIcon {
+  height: 11px;
+  width: 11px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2px;
+  left: 2px;
+  object-fit: cover;
+  z-index: 1;
+}
+.avataricon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.blankLine,
+.burn100,
+.caCxb92feg87ziy8h2u9s2kg5enf,
+.exchangeRaydium,
+.liquidity2905k,
+.marketCap14521k,
+.pooledSol1566,
+.renounced,
+.swapcomSwap,
+.tokenPrice00001452 {
+  margin: 0;
+}
+.swapcomSwapContainer {
+  height: 182px;
+  width: 271px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-height: 182px;
+  word-break: break-word;
+  z-index: 1;
+}
+.buyOneSolButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.launchChart {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 77px;
+}
+.launchchartbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-32xl-5);
+  white-space: nowrap;
+}
+.buy1Sol {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 50px;
+}
+.buyonesolbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-lgi-5);
+  white-space: nowrap;
+}
+.buy10Sol {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 56px;
+}
+.buy10solbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 22px;
+  left: 90px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 16.5px;
+  white-space: nowrap;
+}
+.buy5Sol {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 50px;
+}
+.buy5solbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-lgi-5);
+  white-space: nowrap;
+}
+.buyXSol {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 51px;
+}
+.buyxsolbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 44px;
+  left: 90px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-lgi);
+  white-space: nowrap;
+}
+.buySlippage {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 69px;
+}
+.buyslippagebutton {
+  width: 90px;
+  margin: 0 !important;
+  position: absolute;
+  top: 66px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--color-palevioletred-600);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-4xs) var(--padding-10xs)
+    var(--padding-3xs);
+}
+.div {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 21px;
+}
+.pctslippage {
+  margin: 0 !important;
+  position: absolute;
+  top: 66px;
+  left: 90px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-15xl);
+  white-space: nowrap;
+}
+.buyTip {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 38px;
+}
+.buytipbutton {
+  width: 90px;
+  margin: 0 !important;
+  position: absolute;
+  top: 88px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--color-palevioletred-600);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-5xl) var(--padding-10xs) 25.5px;
+}
+.sol {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 42px;
+}
+.tipamount {
+  margin: 0 !important;
+  position: absolute;
+  top: 88px;
+  left: 90px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-4xl-5);
+  white-space: nowrap;
+}
+.track {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.trackbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 110px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 74px;
+}
+.limitOrder {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 63px;
+}
+.limitorderbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 132px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-smi);
+  white-space: nowrap;
+}
+.dca {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 21px;
+}
+.dcabutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 132px;
+  left: 90px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-15xl);
+  text-align: center;
+}
+.caresponsemenu {
+  height: 152px;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+.caresponsemenu,
+.launchChartButton,
+.pctSlippage,
+.responseMenu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pctSlippage {
+  width: 234px;
+  flex-direction: row;
+  padding: 0 27px;
+  box-sizing: border-box;
+}
+.launchChartButton,
+.responseMenu {
+  flex-direction: column;
+}
+.responseMenu {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) var(--padding-base);
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-open-sans);
+}
+.commandsListIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+  min-height: 20px;
+}
+.userinputbox {
+  margin: 0;
+  width: 303px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.paperPlaneIcon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 10px);
+  right: 19px;
+  object-fit: cover;
+}
+.messageInputBox,
+.protoSwapPage {
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.messageInputBox {
+  align-self: stretch;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-palevioletred-100);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-lg);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  z-index: 1;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--font-open-sans);
+}
+.protoSwapPage {
+  width: 100%;
+  border-radius: var(--br-9xl);
+  flex-direction: column;
+  padding: var(--padding-31xl) var(--padding-mini) var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-15xl);
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-5xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 297px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}

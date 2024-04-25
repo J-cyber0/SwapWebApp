@@ -1,0 +1,66 @@
+.bridgetext {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 36px;
+  z-index: 1;
+}
+.messageFrame {
+  border-radius: var(--br-3xs) var(--br-8xs) var(--br-8xs) var(--br-3xs);
+  background: linear-gradient(180deg, #fff, #fcc9db 0.01%, #f879a6 19.27%);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-sm) var(--padding-9xs)
+    var(--padding-mid);
+}
+.messageFrame,
+.messageInputBoxInstance,
+.messageframe {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.messageframe {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.messageInputBoxInstance {
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm-1) 0 var(--padding-smi);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-14xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 347px) {
+  .frameParent {
+    gap: var(--gap-base);
+  }
+}

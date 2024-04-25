@@ -1,0 +1,256 @@
+.walletdisplay {
+  height: 26px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 13px);
+  right: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-palevioletred-400);
+}
+.swapWallet {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 1;
+}
+.walletdropdownbox,
+.walletproviderbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.walletdropdownbox {
+  flex: 1;
+  padding: var(--padding-4xs) var(--padding-13xl) var(--padding-5xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.walletproviderbox {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.walleticon {
+  width: 22px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: cover;
+}
+.walleticonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.dropdownicon {
+  align-self: stretch;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 20px;
+}
+.connectedwallet {
+  width: 162.3px;
+  margin: 0 !important;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.configurewallets,
+.configurewalletsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.configurewallets {
+  align-self: stretch;
+  height: 27px;
+  position: relative;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.configurewalletsWrapper {
+  width: 190px;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.settingsicon {
+  width: 22px;
+  height: 15.9px;
+  position: relative;
+  object-fit: cover;
+}
+.settingsmenu {
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-8xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.frameParent,
+.protoAutobuyInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.protoAutobuyInner {
+  width: 379px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.messageInputBoxCommandsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.protoAutobuyChild {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini) 434.9px var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.backgroundfilterIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.messageTailIcon {
+  position: absolute;
+  top: 298.5px;
+  left: 385px;
+  width: 21px;
+  height: 8.5px;
+  z-index: 1;
+}
+.dailyPctChg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.commandsListIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: contain;
+  min-height: 20px;
+}
+.userinputbox {
+  margin: 0;
+  width: 303px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.paperPlaneIcon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 10px);
+  right: 19px;
+  object-fit: contain;
+}
+.messageInputBox,
+.protoAutobuy {
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+.messageInputBox {
+  align-self: stretch;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-palevioletred-100);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-lg);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  z-index: 1;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--font-open-sans);
+}
+.protoAutobuy {
+  width: 100%;
+  border-radius: var(--br-9xl);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-31xl) var(--padding-mini) var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl-1);
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-5xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 377px) {
+  .messageInputBoxCommandsParent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 302px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

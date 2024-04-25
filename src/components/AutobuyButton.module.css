@@ -1,0 +1,36 @@
+.bridgeButton {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-palevioletred-100);
+}
+.image15Icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin: 0 !important;
+  top: 6px;
+  left: calc(50% - 8px);
+  object-fit: contain;
+  z-index: 1;
+}
+.autobuy {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 27px;
+}
+.autobuybutton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-7xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

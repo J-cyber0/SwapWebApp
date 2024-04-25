@@ -1,0 +1,306 @@
+.walletdisplay {
+  height: 26px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 13px);
+  right: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-palevioletred-400);
+}
+.swapWallet {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 1;
+}
+.walletdropdownbox,
+.walletproviderbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.walletdropdownbox {
+  flex: 1;
+  padding: var(--padding-4xs) var(--padding-13xl) var(--padding-5xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.walletproviderbox {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.walleticon {
+  width: 22px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: cover;
+}
+.walleticonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.dropdownicon {
+  align-self: stretch;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 20px;
+}
+.configurewallets,
+.connectedwallet {
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+.connectedwallet {
+  width: 162.3px;
+  margin: 0 !important;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.configurewallets {
+  height: 27px;
+  width: 190px;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.settingsbutton {
+  width: 32px;
+  height: 30px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.settingsicon {
+  width: 22px;
+  height: 15.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 8px);
+  left: calc(50% - 11px);
+  object-fit: cover;
+  z-index: 1;
+}
+.sendButton,
+.settingsmenu {
+  display: flex;
+  flex-direction: column;
+}
+.settingsmenu {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.sendButton {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.configureWallets,
+.configureWalletsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.configureWallets {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.configureWalletsWrapper {
+  width: 391px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+}
+.settingsMenu {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 43px;
+  z-index: 1;
+}
+.blockchainSelectionDropDown,
+.messageFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.messageFrame {
+  border-radius: var(--br-3xs) var(--br-8xs) var(--br-8xs) var(--br-3xs);
+  background: linear-gradient(180deg, #fff, #fcc9db 0.01%, #f879a6 19.27%);
+  overflow: hidden;
+  padding: var(--padding-9xs) var(--padding-2xs);
+}
+.blockchainSelectionDropDown {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  z-index: 2;
+}
+.transactionFeesAmountButton {
+  width: 111px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+}
+.leftButtonConfigButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 134px var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+}
+.backgroundfilterIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.messageTailIcon {
+  position: absolute;
+  top: 298.5px;
+  left: 385px;
+  width: 21px;
+  height: 8.5px;
+  z-index: 1;
+}
+.slippageConfigDisplay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.commandsListIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+  min-height: 20px;
+}
+.userinputbox {
+  width: 303px;
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.paperPlaneIcon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 10px);
+  right: 19px;
+  object-fit: cover;
+}
+.commandsList,
+.messageInputBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.messageInputBox {
+  flex: 1;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-palevioletred-100);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-lg);
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.commandsList {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+}
+.protoBotSettingsPage {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-32xl) var(--padding-smi) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 318px) {
+  .configureWallets {
+    flex-wrap: wrap;
+  }
+}

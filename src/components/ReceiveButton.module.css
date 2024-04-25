@@ -1,0 +1,163 @@
+.avatarIcon {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-34xl);
+}
+.avatarIcon,
+.topMenu,
+.topmenu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.topmenu {
+  margin: 0;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-7xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.topMenu {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-9xl);
+}
+.thefold {
+  width: 348.1px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-palevioletred-500);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.ellipse {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #dee0e5, #f879a6);
+}
+.ethereumIcon {
+  height: 11px;
+  width: 11px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2px;
+  left: 2px;
+  object-fit: contain;
+  z-index: 1;
+}
+.avataricon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.welcomeToThe {
+  margin: 0;
+}
+.iveCreatedACryptoWalletF1 {
+  white-space: pre-wrap;
+}
+.cvm7s4pj3hm2n7n98e9xqg63d81vzb {
+  text-decoration: underline;
+}
+.alreadyFamiliarWith,
+.andMuchMore,
+.blankLine,
+.blankLine1,
+.blankLine2,
+.blankLine3,
+.blankLine4,
+.blankLine5,
+.blankLine6,
+.blazinglyFastTradingTrade,
+.heresHowTo,
+.inOurMenu,
+.instantSwapsSwap,
+.iveCreatedACryptoWalletF,
+.manualExploration,
+.newToSwapio,
+.newTokenAlerts,
+.pnlMonitoringMonitor,
+.readyToDive,
+.tradeTrackingKeep,
+.tutorial,
+.wonderingWhatI {
+  margin: 0;
+}
+.welcomeToTheContainer {
+  margin: 0;
+  width: 349px;
+  position: relative;
+  font-size: inherit;
+  line-height: 12px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-height: 336px;
+  word-break: break-word;
+  max-width: calc(100% - 25px);
+  z-index: 1;
+}
+.avatarIconParent,
+.avatariconParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.avatariconParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-open-sans);
+}
+.avatarIconParent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-base-3);
+}
+.component,
+.receiveButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component {
+  flex-direction: row;
+  padding: 0 var(--padding-6xl);
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-open-sans);
+}
+.receiveButton {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-50xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 374px) {
+  .receiveButton {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 365px) {
+  .avatarIcon {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

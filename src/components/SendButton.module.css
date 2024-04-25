@@ -1,0 +1,43 @@
+.sendbuttonChild {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-palevioletred-100);
+}
+.image18Icon {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: 7px;
+  left: calc(50% - 7px);
+  object-fit: contain;
+  z-index: 1;
+}
+.send {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 16px;
+}
+.sendWrapper,
+.sendbutton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sendWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+}
+.sendbutton {
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-7xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

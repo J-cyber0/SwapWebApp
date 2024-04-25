@@ -1,0 +1,95 @@
+.walletdisplay {
+  height: 26px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 13px);
+  right: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-palevioletred-400);
+}
+.swapWallet {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 1;
+}
+.walletdropdownbox,
+.walletproviderbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.walletdropdownbox {
+  flex: 1;
+  padding: var(--padding-4xs) var(--padding-13xl) var(--padding-5xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.walletproviderbox {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.walleticon {
+  width: 22px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: cover;
+}
+.settingsIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.dropdownicon {
+  align-self: stretch;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 20px;
+}
+.configurewallets,
+.connectedwallet {
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+.connectedwallet {
+  width: 162.3px;
+  margin: 0 !important;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.configurewallets {
+  align-self: stretch;
+  height: 27px;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

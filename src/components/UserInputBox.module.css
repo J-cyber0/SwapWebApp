@@ -1,0 +1,358 @@
+.paperPlane {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #dee0e5, #f879a6);
+}
+.ethereumIcon {
+  height: 11px;
+  width: 11px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2px;
+  left: 2px;
+  object-fit: cover;
+  z-index: 1;
+}
+.avataricon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.autoBuy,
+.blankLine,
+.blankLine1,
+.blankLine2,
+.blankLine3,
+.blankLine4,
+.blankLine5,
+.buttonsConfig,
+.customizeYourBuy,
+.customizeYourSlippage,
+.generalSettings,
+.immediatelyBuyWhen,
+.increaseYourTransaction,
+.maxPriceImpact,
+.settings,
+.slippageConfig,
+.transactionPriority {
+  margin: 0;
+}
+.settingsGeneralSettingsContainer,
+.solanaChain {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.settingsGeneralSettingsContainer {
+  align-self: stretch;
+  height: 200px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.solanaChain {
+  min-width: 74px;
+}
+.solanaChainWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.image5Icon {
+  height: 18px;
+  width: 13px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: cover;
+  min-height: 18px;
+}
+.blockchainselectiondropdown {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-lgi) var(--padding-12xs)
+    var(--padding-34xl);
+  gap: var(--gap-2xl);
+  z-index: 1;
+}
+.autobuySettings {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 97px;
+}
+.autobuysetttingsbox {
+  height: 21px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-palevioletred-600);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-21xl) var(--padding-10xs)
+    var(--padding-22xl-5);
+  white-space: nowrap;
+  z-index: 1;
+}
+.buy10 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 46px;
+}
+.buypctbutton {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-2xl-5);
+  white-space: nowrap;
+  z-index: 1;
+}
+.sell10 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 48px;
+}
+.autobuySetttingsBox,
+.sellpctbutton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sellpctbutton {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  padding: var(--padding-10xs) var(--padding-xl-5);
+  white-space: nowrap;
+  z-index: 1;
+}
+.autobuySetttingsBox {
+  gap: var(--gap-11xs);
+}
+.buyButtonConfig {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 104px;
+}
+.buybuttonconfigbox {
+  height: 21px;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--color-palevioletred-600);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-18xl) var(--padding-10xs)
+    var(--padding-19xl);
+  z-index: 1;
+}
+.left5Sol {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 55px;
+}
+.leftbuttonconfigbutton {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-mid);
+  white-space: nowrap;
+  z-index: 1;
+}
+.right10Sol {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 69px;
+}
+.autobuySetttingsBox1,
+.rightbuttonconfigbutton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rightbuttonconfigbutton {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  padding: var(--padding-10xs) var(--padding-3xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.autobuySetttingsBox1 {
+  gap: var(--gap-11xs);
+}
+.slippageConfig1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+}
+.slippageconfigdisplay {
+  height: 21px;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--color-palevioletred-600);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-26xl) var(--padding-10xs)
+    var(--padding-27xl-5);
+  z-index: 1;
+}
+.sol {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 36px;
+}
+.autobuyamount1 {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-7xl-5);
+  white-space: nowrap;
+  z-index: 1;
+}
+.sol1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 42px;
+}
+.autobuySetttingsBox2,
+.autobuyamount2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.autobuyamount2 {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  padding: var(--padding-10xs) var(--padding-4xl-5);
+  white-space: nowrap;
+  z-index: 1;
+}
+.autobuySetttingsBox2 {
+  gap: var(--gap-11xs);
+}
+.transactionPriority1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 117px;
+}
+.transactionprioritybox {
+  height: 21px;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--color-palevioletred-600);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-11xl) var(--padding-10xs)
+    var(--padding-12xl-5);
+  z-index: 1;
+}
+.fast {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 24px;
+}
+.prioritybutton {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-13xl-5);
+  z-index: 1;
+}
+.sol2 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 36px;
+}
+.transactionfeesamountbutton {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-7xl-5);
+  white-space: nowrap;
+  z-index: 1;
+}
+.autobuySetttingsBox3 {
+  flex-direction: row;
+  gap: var(--gap-11xs);
+}
+.autobuySetttingsBox3,
+.backgroundFilter,
+.blockchainSelectionDropDown,
+.userInputBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blockchainSelectionDropDown {
+  height: 196px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+  margin-top: -10px;
+  font-size: var(--font-size-3xs);
+}
+.backgroundFilter,
+.userInputBox {
+  max-width: 100%;
+}
+.backgroundFilter {
+  flex: 1;
+  flex-direction: column;
+  min-width: 239px;
+}
+.userInputBox {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

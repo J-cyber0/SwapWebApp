@@ -1,0 +1,26 @@
+.hudParent,
+.protoRecieveInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.hudParent {
+  flex: 1;
+  justify-content: flex-start;
+}
+.protoRecieveInner {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-51xl) 0 var(--padding-52xl);
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 400px) {
+  .protoRecieveInner {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

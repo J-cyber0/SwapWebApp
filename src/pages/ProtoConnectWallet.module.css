@@ -1,0 +1,89 @@
+.frameChild {
+  width: 430px;
+  height: 873px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+  display: none;
+  max-width: 100%;
+}
+.addconnectWalletsChild {
+  height: 51px;
+  width: 313px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  display: none;
+}
+.addAWallet {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.addconnectWallets,
+.addconnectWalletsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.addconnectWallets {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-xl) var(--padding-mid)
+    var(--padding-2xl);
+  background-color: var(--color-gray-400);
+  flex: 1;
+  border-radius: var(--br-7xl);
+  justify-content: center;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.addconnectWalletsWrapper {
+  width: 379px;
+  justify-content: flex-end;
+  padding: 0 33px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.protoConnectWallet,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-4xl) var(--padding-6xl) var(--padding-17xl)
+    var(--padding-5xs);
+  gap: 555px;
+  max-width: 100%;
+}
+.protoConnectWallet {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-41xl) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+}

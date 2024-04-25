@@ -1,0 +1,314 @@
+.backgroundfilterIcon,
+.frameChild {
+  width: 430px;
+  display: none;
+  max-width: 100%;
+}
+.backgroundfilterIcon {
+  height: 932px;
+  position: relative;
+}
+.frameChild {
+  height: 873px;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+}
+.back,
+.backIcon,
+.frameChild {
+  position: relative;
+}
+.backIcon {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  min-height: 20px;
+}
+.back {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.backbutton,
+.privateKeyInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.backbutton {
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-8xs) var(--padding-10xs);
+  z-index: 2;
+}
+.importPrivateKey {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-style: italic;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.backbuttonParent,
+.importPrivateKeyForm {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.importPrivateKeyForm {
+  flex-direction: column;
+  padding: var(--padding-4xl) 0 0;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+}
+.backbuttonParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.importicon {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  object-fit: cover;
+}
+.form {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.nameinputbox {
+  outline: 0;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  font-family: var(--font-montserrat);
+  font-style: italic;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+  position: relative;
+  z-index: 3;
+}
+.name {
+  height: 15px;
+  width: 38px;
+  position: relative;
+  display: inline-block;
+}
+.namefield {
+  width: 12%;
+  height: 15px;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 8px;
+  pointer-events: none;
+}
+.wrapperNameinputbox {
+  position: relative;
+  width: 100%;
+  border: 0;
+  background-color: var(--color-rosybrown);
+  align-self: stretch;
+  height: 31px;
+  border-radius: var(--br-6xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 180px;
+}
+.privatekeyinputbox {
+  outline: 0;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  font-family: var(--font-montserrat);
+  font-style: italic;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+  position: relative;
+  z-index: 3;
+}
+.privateKey {
+  height: 15px;
+  width: 68px;
+  position: relative;
+  display: inline-block;
+}
+.form1,
+.privatekeyfield,
+.wrapperPrivatekeyinputbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.privatekeyfield {
+  width: 22%;
+  height: 15px;
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 8px;
+  pointer-events: none;
+}
+.form1,
+.wrapperPrivatekeyinputbox {
+  align-self: stretch;
+  flex-direction: column;
+}
+.wrapperPrivatekeyinputbox {
+  position: relative;
+  width: 100%;
+  border: 0;
+  background-color: var(--color-rosybrown);
+  height: 31px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  min-width: 180px;
+}
+.form1 {
+  gap: var(--gap-xs);
+}
+.frameParent,
+.importprivatekeyform,
+.importprivatekeyformWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.importprivatekeyform {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-400);
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-21xl) var(--padding-126xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  z-index: 2;
+}
+.frameParent,
+.importprivatekeyformWrapper {
+  align-self: stretch;
+}
+.importprivatekeyformWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+  font-family: var(--font-montserrat);
+}
+.importbuttonChild {
+  height: 51px;
+  width: 239px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  display: none;
+}
+.import {
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 75px;
+  z-index: 1;
+}
+.importbutton,
+.importbuttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.importbutton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-xl);
+  background-color: var(--color-gray-400);
+  flex: 1;
+  border-radius: var(--br-7xl);
+  justify-content: center;
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.importbuttonWrapper {
+  width: 381px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-52xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.protoImportPrivateKey,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-4xl) var(--padding-6xl) var(--padding-20xl)
+    var(--padding-smi);
+  gap: var(--gap-333xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.protoImportPrivateKey {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-41xl) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 381px) {
+  .importbuttonWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

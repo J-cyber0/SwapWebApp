@@ -1,0 +1,404 @@
+.bridgetext {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+  z-index: 1;
+}
+.messageFrame,
+.messageframe {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.messageFrame {
+  border-radius: var(--br-3xs) var(--br-8xs) var(--br-8xs) var(--br-3xs);
+  background: linear-gradient(180deg, #fff, #fcc9db 0.01%, #f879a6 19.27%);
+  overflow: hidden;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-2xs);
+}
+.messageframe {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  z-index: 2;
+}
+.ellipse {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #dee0e5, #f879a6);
+}
+.ethereumIcon {
+  height: 11px;
+  width: 11px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2px;
+  left: 2px;
+  object-fit: cover;
+  z-index: 1;
+}
+.avataricon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.mc1124b,
+.profit120,
+.swapcomSwap,
+.value60000 {
+  margin: 0;
+}
+.swapcomSwapProfitContainer {
+  height: 55px;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+}
+.position1 {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-palevioletred-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-mini);
+}
+.mc1124b1,
+.profit1201,
+.swapcomSwap1,
+.value600001 {
+  margin: 0;
+}
+.swapcomSwapProfitContainer1 {
+  height: 55px;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+}
+.position11,
+.positionsresponsetext {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.position11 {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-palevioletred-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-mini);
+}
+.positionsresponsetext {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  min-width: 125px;
+  cursor: pointer;
+  z-index: 1;
+}
+.buy10Sol {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  white-space: pre-wrap;
+  min-width: 50px;
+}
+.buy10solbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) var(--padding-lgi);
+  white-space: nowrap;
+}
+.buyX {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 24px;
+}
+.buyxbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 90px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) var(--padding-13xl-5);
+  white-space: nowrap;
+}
+.sell100 {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 41px;
+}
+.sell100pctbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 21px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) var(--padding-5xl);
+  white-space: nowrap;
+}
+.sellX {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 26px;
+}
+.sellxbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 21px;
+  left: 90px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) var(--padding-12xl-5);
+  white-space: nowrap;
+}
+.manage {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 36px;
+}
+.managebutton,
+.positions1menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.managebutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  padding: var(--padding-8xs-5) var(--padding-52xl-5);
+  white-space: nowrap;
+}
+.positions1menu {
+  align-self: stretch;
+  height: 62px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+.buy10Sol1 {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  white-space: pre-wrap;
+  min-width: 50px;
+}
+.buy10solbutton1 {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) var(--padding-lgi);
+  white-space: nowrap;
+}
+.buyX1 {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 24px;
+}
+.buyxbutton1 {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 90px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) var(--padding-13xl-5);
+  white-space: nowrap;
+}
+.sell1001 {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 41px;
+}
+.sell100pctbutton1 {
+  margin: 0 !important;
+  position: absolute;
+  top: 21px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) var(--padding-5xl);
+  white-space: nowrap;
+}
+.sellX1 {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 26px;
+}
+.sellxbutton1 {
+  margin: 0 !important;
+  position: absolute;
+  top: 21px;
+  left: 90px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) var(--padding-12xl-5);
+  white-space: nowrap;
+}
+.manage1 {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 36px;
+}
+.managebutton1 {
+  margin: 0 !important;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-palevioletred-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) var(--padding-52xl-5);
+  white-space: nowrap;
+}
+.positions2menu {
+  align-self: stretch;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.buySolButton,
+.positionsMenuItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buySolButton {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.positionsMenuItems {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  min-width: 116px;
+}
+.positionsresponsetextParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 201px;
+}
+.avatariconParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.avatariconParent {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-17xl) 0 0;
+  box-sizing: border-box;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 343px) {
+  .positionsresponsetext {
+    flex: 1;
+  }
+  .positionsresponsetextParent {
+    flex-wrap: wrap;
+  }
+}

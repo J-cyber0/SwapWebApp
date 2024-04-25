@@ -1,0 +1,147 @@
+.outputbox {
+  height: 176px;
+  width: 306px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.backgroundfilter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  background: linear-gradient(
+    0deg,
+    rgba(253, 253, 253, 0.1) 52.87%,
+    rgba(249, 138, 177, 0.1)
+  );
+}
+.walletProviderBox {
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.configureWalletsComponent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.configureWalletsComponentWrapper,
+.sendButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.configureWalletsComponentWrapper {
+  width: 380px;
+  padding: 0 var(--padding-base);
+}
+.sendButton {
+  align-self: stretch;
+  padding: 0 var(--padding-mid) 140.9px var(--padding-2xs);
+}
+.commandsListIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.commandsList {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.userinputbox {
+  margin: 0;
+  width: 303px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.paperPlaneIcon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 10px);
+  right: 19px;
+  object-fit: contain;
+}
+.messageInputBox {
+  align-self: stretch;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-palevioletred-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-lg);
+  position: relative;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--font-open-sans);
+}
+.backgroundfilterParent,
+.protoFirstPage {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.backgroundfilterParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-31xl) var(--padding-sm) 35.5px;
+  gap: var(--gap-xl-1);
+  max-width: 100%;
+}
+.protoFirstPage {
+  width: 100%;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0.5px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 302px) {
+  .configureWalletsComponent {
+    flex-wrap: wrap;
+  }
+}

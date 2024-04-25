@@ -1,0 +1,16 @@
+.settingsicon {
+  width: 22px;
+  height: 15.9px;
+  position: relative;
+  object-fit: cover;
+}
+.settingsmenu {
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-8xs);
+  cursor: pointer;
+  z-index: 1;
+}

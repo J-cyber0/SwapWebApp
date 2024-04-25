@@ -1,0 +1,100 @@
+.walletdropdownscreen {
+  width: 430px;
+  height: 873px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+  display: none;
+  max-width: 100%;
+}
+.backIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+  min-height: 20px;
+}
+.back1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.back,
+.backbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.backbutton {
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-8xs) var(--padding-10xs);
+  z-index: 1;
+}
+.addYourWallet {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.addYourWalletWrapper {
+  flex-direction: column;
+  padding: var(--padding-4xl) 0 0;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+}
+.addYourWalletWrapper,
+.backButton,
+.protoAddWalletPage,
+.walletdropdownscreenParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.backButton {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.protoAddWalletPage,
+.walletdropdownscreenParent {
+  box-sizing: border-box;
+}
+.walletdropdownscreenParent {
+  flex: 1;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+  flex-direction: column;
+  padding: var(--padding-4xl) var(--padding-2xl) 598px;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+  font-family: var(--font-montserrat);
+}
+.protoAddWalletPage {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-41xl) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+}

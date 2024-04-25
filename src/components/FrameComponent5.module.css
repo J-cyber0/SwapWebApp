@@ -1,0 +1,9 @@
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs-9) var(--padding-smi-9) var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}

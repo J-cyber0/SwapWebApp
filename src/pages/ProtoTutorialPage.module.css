@@ -1,0 +1,535 @@
+.backgroundfilterIcon,
+.walletdisplay {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  left: 0;
+}
+.backgroundfilterIcon {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-4xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.walletdisplay {
+  height: 26px;
+  top: calc(50% - 13px);
+  border-radius: var(--br-lgi);
+  background-color: var(--color-palevioletred-400);
+}
+.swapWallet {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 1;
+}
+.walletdropdownbox,
+.walletproviderbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.walletdropdownbox {
+  flex: 1;
+  padding: var(--padding-4xs) var(--padding-13xl) var(--padding-5xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.walletproviderbox {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.walleticon {
+  width: 22px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.walleticonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.dropdownicon {
+  align-self: stretch;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 20px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.connectedwallet {
+  width: 162.3px;
+  margin: 0 !important;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.configurewallets,
+.configurewalletsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.configurewallets {
+  align-self: stretch;
+  height: 27px;
+  position: relative;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.configurewalletsWrapper {
+  width: 190px;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.settingsicon {
+  width: 22px;
+  height: 15.9px;
+  position: relative;
+  object-fit: cover;
+}
+.settingsmenu {
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-8xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.backgroundFilterAdjustment,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.backgroundFilterAdjustment {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 var(--padding-17xl);
+  box-sizing: border-box;
+}
+.outputbox {
+  width: 306px;
+  height: 176px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  z-index: 2;
+}
+.autobuybuttonChild {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-palevioletred-100);
+}
+.image15Icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin: 0 !important;
+  top: 6px;
+  left: calc(50% - 8px);
+  object-fit: cover;
+  z-index: 1;
+}
+.autobuy {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 27px;
+}
+.autobuybutton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+  z-index: 1;
+  text-align: center;
+}
+.swapbuttonChild {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-palevioletred-100);
+}
+.image16Icon {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: 7px;
+  left: calc(50% - 7px);
+  object-fit: cover;
+  z-index: 1;
+}
+.swap {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 17px;
+}
+.swapWrapper,
+.swapbutton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.swapWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs) 0 var(--padding-7xs);
+}
+.swapbutton {
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.bridgebuttonChild {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-palevioletred-100);
+}
+.image17Icon {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: 7px;
+  left: calc(50% - 7px);
+  object-fit: cover;
+  z-index: 1;
+}
+.bridge {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 21px;
+}
+.bridgeWrapper,
+.bridgebutton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bridgeWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) 0 var(--padding-10xs);
+}
+.bridgebutton {
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.sendbuttonChild {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-palevioletred-100);
+}
+.image18Icon {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: 7px;
+  left: calc(50% - 7px);
+  object-fit: cover;
+  z-index: 1;
+}
+.send {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 16px;
+}
+.sendWrapper,
+.sendbutton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sendWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+}
+.sendbutton {
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.receivebuttonChild {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-palevioletred-100);
+}
+.image19Icon {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: 7px;
+  left: calc(50% - 7px);
+  object-fit: cover;
+  z-index: 1;
+}
+.receive {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 25px;
+}
+.receiveWrapper,
+.receivebutton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.receiveWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+}
+.receivebutton {
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.autobuybuttonParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.autobuybuttonParent {
+  margin: 0;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  text-align: left;
+  font-size: var(--font-size-7xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+}
+.thefold {
+  width: 348.1px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-palevioletred-500);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.ellipse {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #dee0e5, #f879a6);
+}
+.ethereumIcon {
+  height: 11px;
+  width: 11px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2px;
+  left: 2px;
+  object-fit: cover;
+  z-index: 1;
+}
+.avataricon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.welcomeToThe {
+  margin: 0;
+}
+.iveCreatedACryptoWalletF1 {
+  white-space: pre-wrap;
+}
+.cvm7s4pj3hm2n7n98e9xqg63d81vzb {
+  text-decoration: underline;
+}
+.alreadyFamiliarWith,
+.andMuchMore,
+.blankLine,
+.blankLine1,
+.blankLine2,
+.blankLine3,
+.blankLine4,
+.blankLine5,
+.blankLine6,
+.blazinglyFastTradingTrade,
+.heresHowTo,
+.inOurMenu,
+.instantSwapsSwap,
+.iveCreatedACryptoWalletF,
+.manualExploration,
+.newToSwapio,
+.newTokenAlerts,
+.pnlMonitoringMonitor,
+.readyToDive,
+.tradeTrackingKeep,
+.tutorial,
+.wonderingWhatI {
+  margin: 0;
+}
+.welcomeToTheContainer {
+  margin: 0;
+  width: 349px;
+  position: relative;
+  font-size: inherit;
+  line-height: 12px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-height: 336px;
+  word-break: break-word;
+  max-width: calc(100% - 25px);
+  z-index: 1;
+}
+.avatariconParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.avatariconParent,
+.frameGroup,
+.protoTutorialPageInner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-base-3);
+}
+.protoTutorialPageInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-base) 49.9px var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+.tutorial1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 38px;
+}
+.protoTutorialPage,
+.tutorialbutton,
+.tutorialbuttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tutorialbutton {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-palevioletred-600);
+  padding: var(--padding-10xs) var(--padding-34xl-5);
+  z-index: 1;
+}
+.protoTutorialPage,
+.tutorialbuttonWrapper {
+  padding: 0 var(--padding-16xl) 107.9px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-open-sans);
+}
+.protoTutorialPage {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-31xl) var(--padding-mini) var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl-1);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 323px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

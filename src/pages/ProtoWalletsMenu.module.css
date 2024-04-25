@@ -1,0 +1,247 @@
+.dropdownbackground {
+  width: 430px;
+  height: 873px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+  display: none;
+  max-width: 100%;
+}
+.back,
+.backIcon {
+  position: relative;
+}
+.backIcon {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+  min-height: 20px;
+}
+.back {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.backWrapper,
+.backbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.backbutton {
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-8xs) var(--padding-10xs);
+  z-index: 1;
+}
+.wallets {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.swapWalletParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.backbuttonParent {
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.swapwalletChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-400);
+  z-index: 1;
+}
+.walleticon {
+  width: 20.7px;
+  height: 19px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.inputField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.balance000,
+.swapWallet {
+  position: relative;
+  font-weight: 700;
+}
+.swapWallet {
+  align-self: stretch;
+  z-index: 2;
+}
+.balance000 {
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  min-width: 94px;
+}
+.swapWalletGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 90px;
+}
+.walletAddress0xabcdef {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.walletAddress0xabcdefWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) 0 0;
+  box-sizing: border-box;
+  min-width: 94px;
+  font-size: var(--font-size-3xs);
+}
+.frameParent,
+.swapWalletTitle,
+.swapwallet {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.swapwallet {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-lg) var(--padding-3xs-9) var(--padding-8xs)
+    var(--padding-5xl-6);
+  box-sizing: border-box;
+  position: relative;
+  gap: 21.2px;
+  z-index: 1;
+}
+.frameParent,
+.swapWalletTitle {
+  align-self: stretch;
+}
+.swapWalletTitle {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+  font-family: var(--font-montserrat);
+}
+.addAWallet,
+.addawalletbuttonChild {
+  position: absolute;
+  margin: 0 !important;
+}
+.addawalletbuttonChild {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xl);
+}
+.addAWallet {
+  top: 17px;
+  left: calc(50% - 70px);
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.addawalletbutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 51px;
+  width: 306px;
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.addawalletbutton,
+.dropdownbackgroundParent,
+.figmaDesign,
+.protoWalletsMenu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.figmaDesign {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-18xl) 0 37.5px;
+}
+.dropdownbackgroundParent,
+.protoWalletsMenu {
+  box-sizing: border-box;
+}
+.dropdownbackgroundParent {
+  flex: 1;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 121, 166, 0.9),
+    rgba(250, 166, 196, 0.9) 99.99%,
+    rgba(255, 255, 255, 0.9)
+  );
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-17xl);
+  gap: 627px;
+  max-width: 100%;
+}
+.protoWalletsMenu {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-41xl) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
